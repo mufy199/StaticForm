@@ -1,0 +1,118 @@
+/* initials */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    top: 0px;
+    align-items: center;
+    height: 116px;
+    /* border: 2px solid red; */
+}
+.logo{
+    margin: 4px 8px;
+}
+.logo img{
+    margin: 0px 0px;
+    padding:9px 13px;
+    height: 100px;
+}
+#navbar ul{
+    width: 88vw;
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar ul li{
+    padding: 5px 5px;
+    margin: 2px 2px;
+    list-style: none;
+}
+.item a{
+    font-family: 'Merriweather', serif;
+    padding: 8px 6px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+.item a:hover{
+    color: skyblue;
+}
+/* form*/
+#container{
+    position: relative;
+}   
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 103px 125px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* margin: 20px 37px; */
+    padding: 40px 60px;
+}
+.form::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(219, 219, 240);
+    z-index: -1;
+    width: 41%;
+    height: 70%;
+}
+.form h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    cursor: default;
+}
+#box .form-group{
+    padding: 4px 0px;
+}
+.form-group input,.form-group textarea{
+    width: 400px;
+    padding: 10px;
+}
+.btn{
+    padding: 8px 30px;
+    background-color: rgb(52, 109, 184);
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(52, 109, 184);
+    background-color: white;
+    cursor: pointer;
+}
+/* info */
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#info p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 6px 65px;
+    line-height: 1.2rem;
+    letter-spacing: 1.1px;
+}
+#info .img{
+    padding: 4px 0px;
+}
+.img img{
+    height: 270px;
+}
+
